@@ -64,7 +64,7 @@ class Book extends Component {
 			<h1 className="mb4 mt0 lh-title tc-m">{bookData.best_book.title}</h1>
 			<header className="fn fl-ns w-30-l w-100 w-60-m pr4-l mh6-m mt3">
 				<div className='ba'>
-	    			<img src={bookData.best_book.image_url} alt="book" className='tc w-100 bt bb' style={{'height': '300px'}} />
+	    			<img src={bookData.best_book.image_url} alt="book" className='tc bt bb' style={{'height': '300px'}} />
 	    			<div className='tc'>
 	    				<p className='pv2 ma0 bb'>Author  :  {bookData.best_book.author.name}</p>
 	    				<p className='pv2 ma0 bb'>Avg. Rating  :  {bookData.average_rating}</p>
