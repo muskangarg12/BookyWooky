@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BookyWooky/precache-manifest.9151ee348ad7d99bc25dd9389c8573ed.js"
+  "/BookyWooky/precache-manifest.8596cc131dedf9e084c20efd4fb800c7.js"
 );
 
 workbox.clientsClaim();
