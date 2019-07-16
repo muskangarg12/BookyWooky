@@ -232,9 +232,9 @@ dateformat@1.0.2-1.2.3:
   version "1.0.2-1.2.3"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-1.0.2-1.2.3.tgz#b0220c02de98617433b72851cf47de3df2cdbee9"
 
-debug@~0.7.0:
-  version "0.7.4"
-  resolved "http://registry.npmjs.org/debug/-/debug-0.7.4.tgz#06e1ea8082c2cb14e39806e22e2f6f757f92af39"
+debug@^2.6.9:
+  version "^2.6.9"
+  resolved "http://registry.npmjs.org/debug/-/debug-2.6.9.tgz#06e1ea8082c2cb14e39806e22e2f6f757f92af39"
 
 decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -1258,7 +1258,7 @@ tiny-lr@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/tiny-lr/-/tiny-lr-0.0.4.tgz#80618547f63f697d05cb40c4c2c4b083521aefb6"
   dependencies:
-    debug "~0.7.0"
+    debug "^2.6.9"
     faye-websocket "~0.4.3"
     noptify latest
     qs "~0.5.2"
